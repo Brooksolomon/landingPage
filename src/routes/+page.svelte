@@ -33,7 +33,7 @@
 				Override the digital divide with additional click throughs from DevOps. with additional
 				click throughs fruit to identify
 			</p>
-			<div class="flex flex-wrap flex-row ml-20 gap-8 mt-4">
+			<div class="flex flex-wrap flex-row ml-[4vw] gap-8 mt-4">
 				<button class="btn bg-[#215476] text-white w-[80vw] md:w-[40vw] lg:w-[20vw] h-16 text-xl hover:bg-[#40a2e3]"
 					>Our Services</button
 				>
