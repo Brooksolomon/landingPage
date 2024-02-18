@@ -15,7 +15,7 @@
           <li><a>Contact Us</a></li>
         </ul>
       </div>
-      <img class="ml-20" src="{floss}" alt="lo">
+      <img class="ml-20" src="{floss}" alt="low">
       <h2 class="text-[#215476] ml-2"><span class="text-[#40a2e3]">Denti</span>All</h2>
     </div>
     <div class="navbar-end hidden lg:flex lg:ml-[-30px] text-[#215476]">
