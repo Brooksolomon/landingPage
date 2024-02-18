@@ -40,13 +40,13 @@
   >
     </nav>
   </footer>
-  <div class="divider bg-[#215476] m-0 divider-info"></div>
+  <!-- <div class="divider bg-[#215476] m-0 divider-info"></div> -->
   <footer class="footer items-center p-4  bg-[#215476] text-white pb-10">
     <aside class="items-center grid-flow-col pl-20">
       <p>© 2024 - All right reserved</p>
     </aside> 
-    <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end pr-20">
-        <Phone size={22}/> <p>(514)-206-886</p> 
+    <nav class="flow-col gap-4 md:place-self-center md:justify-self-end pr-20 flex-wrap">
+        <Phone size={22}/> <p class="">(514)-206-886</p> 
         <Envelope size={22}/> <p>reception@denticare.com</p>
     </nav>
   </footer>

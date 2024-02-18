@@ -2,7 +2,7 @@
     import office from '../images/office.png';
     import person1 from '../images/person1.png';
 </script>
-<div class="bg-white   flex flex-col ml-20  items-center pt-6  rounded-3xl w-[50vw] lg:w-[38vw] h-[52vh]">
+<div class="bg-white   flex flex-col ml-26  items-center lg:pt-6  rounded-3xl w-[50vw] lg:w-[38vw] lg:h-[52vh]">
     <img src="{office} " width="650vw" class="mb-5">
     <div class="flex flex-row gap-2 ">
         <div class="flex flex-col justify-center items-center ">
@@ -12,7 +12,7 @@
         </div>
         <div class="flex flex-col">
             <p class="font-bold text-xl">The Unexpected Dangers of Gum Disease</p>
-            <p class="w-[30vw]">Gum disease is common and unpleasant, but, according to a growing body of evidence, it could but but, according to a growing body of evidence...</p>
+            <p class="w-[30vw] hidden lg:flex">Gum disease is common and unpleasant, but, according to a growing body of evidence, it could but but, according to a growing body of evidence...</p>
 
         </div>
 

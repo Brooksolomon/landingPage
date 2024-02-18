@@ -13,11 +13,12 @@
     <h1 class="text-7xl text-white ml-20 mb-10">Recent Blogs</h1>
     <div class="flex flex-row gap-8 flex-wrap justify-center ">
         <BlogLarge/>
-        <div class="flex flex-col gap-4">
-        <BlogSmall image={person1} name="Melissa Brown" year="08 Jan 2024" title="The Unexpected Dangers of Gum Disease" text="Gum disease is common and unpleasant, but, according to a growing body of evidence, it could but but, according to a growing body of common and unpleasant, but, according to a growing evidence..."/>
+        <div class="flex flex-row lg:flex-col gap-4 flex-wrap items-center justify-center">
+        <BlogSmall image={person1} name="Melissa Brown" year="08 Jan 2024" title="The Unexpected Dangers of Gum Disease" text="Gum disease is common and unpleasant, but, according to a growing body of evidence, it could but but, according to a growing body of common and unpleasant, but, according to a growing evidence... "/>
         <BlogSmall image={person2} name="Melissa Brown" year="08 Jan 2024" title="The Unexpected Dangers of Gum Disease" text="Gum disease is common and unpleasant, but, according to a growing body of evidence, it could but but, according to a growing body of common and unpleasant, but, according to a growing evidence..."/>
         <BlogSmall image={person1} name="Melissa Brown" year="08 Jan 2024" title="The Unexpected Dangers of Gum Disease" text="Gum disease is common and unpleasant, but, according to a growing body of evidence, it could but but, according to a growing body of common and unpleasant, but, according to a growing evidence..."/>
         
     </div>
     </div>
 </section>
+

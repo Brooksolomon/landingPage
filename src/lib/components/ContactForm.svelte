@@ -1,7 +1,7 @@
 
 <div class="flex flex-col flex-wrap text-[#215476] gap-2 items-center">
 <h1 class="text-4xl">Contact US</h1>
-<p class="w-[26vw] ">Please fill out the form below and we will be in touch with you shortly.</p>
+<p class="lg:w-[26vw] ">Please fill out the form below and we will be in touch with you shortly.</p>
 <div class="flex flex-row  gap-4 jus">
     <input type="text" placeholder="First Name" class="input input-bordered border-[#40a2e3]  bg-white w-[30vw] lg:w-[12vw]"  />
     <input type="text" placeholder="Last Name" class="input input-bordered input-primary   border-[#40a2e3] bg-white w-[30vw] lg:w-[12vw]   " />

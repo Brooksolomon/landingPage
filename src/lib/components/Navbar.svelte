@@ -1,7 +1,7 @@
 <script>
   import floss from '../images/floss.png'
 </script>
-<div class="navbar bg-white shadow-lg sticky z-100  ">
+<div class="navbar bg-white shadow-lg sticky z-100 ">
     <div class="navbar-start">
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">

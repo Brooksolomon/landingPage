@@ -8,7 +8,7 @@
     <p class="text-white p-2">Monday -Friday 8AM - 6PM</p>
     <span class="text-white ml-5 p-2">Request an appointemnt</span>
     </div>
-    <div class=" flex-row  hidden lg:flex">
+    <div class="lg:flex hidden flex-row gap-4 md:place-self-center md:justify-self-end mr-32  text-[#215476]">
         <a class="p-2"><FacebookLogo size="{29}" weight="fill" color="white"/></a>
         <a class="p-2"><TwitterLogo size="{29}" weight="fill" color="white"/></a>
         <a class="p-2"><InstagramLogo size="{29}" weight="fill" color="white"/></a>
@@ -20,3 +20,9 @@
   </header>
   <Navbar/>
   <slot />
+
+  <style>
+    body{
+      background-color: white;
+    }
+  </style>

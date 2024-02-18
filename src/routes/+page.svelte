@@ -20,46 +20,51 @@
 <div class="relative bg-white">
 	<section
 		id="about-us"
-		class="bg-white inset-0 mb-[-30rem] flex flex-col md:flex-row justify-between items-center py-36"
+		class=" bg-white inset-0 flex flex-col lg:flex-row py-36 mb-[-20rem] lg:mb-[-20rem]"
 	>
-		<div class=" flex-[0.6] ">
-			<h1 class="text-7xl ml-20 md:mt-70 text-[#215476]">
+		<div class=" flex-[0.5]">
+			<h1 class="text-7xl ml-[4vw] md:mt-70 text-[#215476]">
 				A Reason<br />
 				<span class="text-8xl text-[#40a2e3]">to Smile</span>
 			</h1>
 			<br />
-			<p class="ml-20">
+			<p class="ml-[4vw]">
 				Capitalize on low hanging fruit to identify a ballpark value added activity to beta test.
 				Override the digital divide with additional click throughs from DevOps. with additional
 				click throughs fruit to identify
 			</p>
 			<div class="flex flex-wrap flex-row ml-20 gap-8 mt-4">
-				<button class="btn bg-[#215476] text-white w-80 h-16 text-xl hover:bg-[#40a2e3]"
+				<button class="btn bg-[#215476] text-white w-[80vw] md:w-[40vw] lg:w-[20vw] h-16 text-xl hover:bg-[#40a2e3]"
 					>Our Services</button
 				>
-				<button class="btn bg-[#215476] text-white w-80 h-16 text-xl hover:bg-[#40a2e3]"
+				<button class="btn bg-[#215476] text-white w-[80vw] md:w-[40vw] lg:w-[20vw] h-16 text-xl hover:bg-[#40a2e3]"
 					>Book appointemnt</button
 				>
 			</div>
 		</div>
-		<div class="  flex-[0.4]  flex items-center justify-center m-5 mt-[-80px] ">
-			<img src={smileBG} class=" w-[36rem]" alt="" />
+
+
+		<div class="  flex-[0.5] 400 m-5 flex flex-col items-center">
+			<img
+				src={smileBG}
+				class=" w-[30rem] lg:w-[30rem] mb-[-90%] md:mb-[-60%] lg:mb-[-90%] xl:mb-[-60%]"
+				alt=""
+			/>
+			<img src={smile} class=" w-[30rem] mr-[5rem] lg:w-[40rem]" alt="" />
 		</div>
 	</section>
-	<section class="   flex justify-center md:justify-end mb-[-10rem] relative z-10">
-		<img src={smile} class=" w-[36rem] mr-[3rem] md:mr-[5rem] xl:mr-[10rem] mt-[-300px]" alt="" />
-	</section>
+
 	<section
 		style="background-image:url('{vecBG}') ;"
-		class=" bg-fill relative z-20"
+		class="bg-cover relative z-20 "
 	>
-		<h1 class="text-7xl text-black ml-20 relative mb-10">&#8203;</h1>
-		<h1 class="text-7xl text-white ml-20 relative mb-10 mt-32">Our Services</h1>
+		<h1 class="text-7xl text-black ml-[2vw] relative mb-10">&#8203;</h1>
+		<h1 class="text-7xl text-white ml-[10vw]  relative mb-10 mt-32 w-[80vw]">Our Services</h1>
 		<p class="text-white ml-20 w-[80vw] mb-10">
 			Seamlessly visualize quality intellectual capital without superior collaboration and
 			idea-sharing. Holistically pontificate installed base portals after maintainable products.
 		</p>
-		<div class="flex flex-wrap flex-row gap-28 justify-center">
+		<div class="flex flex-wrap flex-row gap-10 lg:gap-28 justify-center">
 			<ServiceCard
 				image={i1}
 				vector={v1}
@@ -86,7 +91,7 @@
 			/>
 		</div>
 		<button
-			class="btn bg-white text-[#215476] w-80 h-16 text-xl ml-[20vw] md:ml-[34vw] lg:ml-[40vw] mt-32 mb-36 hover:bg-[#40a2e3] hover:text-white"
+			class="btn bg-white text-[#215476] w-[50vw] md:w-[30] lg:w-[20vw] h-16 text-xl ml-[20vw] md:ml-[22vw] lg:ml-[40vw] mt-32 lg:mb-96 hover:bg-[#40a2e3] hover:text-white"
 			>Veiw all Services</button
 		>
 	</section>
@@ -94,4 +99,6 @@
 	<Blogs/>
 	<MapContact/>
 	<Footer/>
+
+	
 </div>
